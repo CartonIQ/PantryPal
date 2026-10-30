@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="pp_background">#181B1A</color>
+    <color name="pp_surface">#242927</color>
+    <color name="pp_primary">#81B29A</color>
+    <color name="pp_alert">#E07A5F</color>
+    <color name="pp_text">#ECEFEA</color>
+    <color name="ic_launcher_background">#81B29A</color>
+</resources>

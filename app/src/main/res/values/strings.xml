@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">PantryPal</string>
+    <string name="tagline">Cook smarter. Waste less. Eat better.</string>
+
+    <!-- Navigation -->
+    <string name="nav_dashboard">Home</string>
+    <string name="nav_pantry">Pantry</string>
+    <string name="nav_recipes">Recipes</string>
+    <string name="nav_grocery">Grocery</string>
+    <string name="nav_settings">Settings</string>
+
+    <!-- Common -->
+    <string name="save">Save</string>
+    <string name="cancel">Cancel</string>
+    <string name="ok">OK</string>
+    <string name="close">Close</string>
+    <string name="delete">Delete</string>
+    <string name="undo">Undo</string>
+    <string name="clear">Clear</string>
+    <string name="back">Back</string>
+    <string name="add">Add</string>
+
+    <!-- Dashboard -->
+    <string name="impact_title">Your impact</string>
+    <string name="impact_rescued">%1$d items rescued</string>
+    <string name="impact_caption">Rescued means used up while 3 days or less from expiry. Meals cooked: %1$d</string>
+    <string name="suggest_title">Cook this soon</string>
+    <string name="suggest_uses">Uses %1$s</string>
+    <string name="radar_title">Expiry Radar</string>
+    <string name="radar_today">Eat Today</string>
+    <string name="radar_soon">Eat Soon</string>
+    <string name="radar_fresh">Fresh</string>
+    <string name="radar_more">+%1$d more</string>
+    <string name="use_first_title">Use these first</string>
+    <string name="use_first_empty">Nothing is about to expire. Nice work!</string>
+    <string name="quick_add">Quick add</string>
+
+    <!-- Pantry -->
+    <string name="pantry_title">Your Pantry</string>
+    <string name="pantry_sorted">Sorted by expiry date. Swipe left to delete.</string>
+    <string name="search_hint">Search pantry</string>
+    <string name="pantry_empty">Your pantry is empty. Tap + to add your first item.</string>
+    <string name="pantry_no_results">No items match your search.</string>
+    <string name="item_removed">%1$s removed</string>
+    <string name="add_item">Add item</string>
+    <string name="edit_item">Edit item</string>
+    <string name="field_name">Name</string>
+    <string name="field_quantity">Quantity</string>
+    <string name="field_unit">Unit</string>
+    <string name="field_category">Category</string>
+    <string name="field_expiry">Expires on</string>
+    <string name="category_other">Other</string>
+    <string name="unit_default">pcs</string>
+    <string name="expiry_today">Expires today</string>
+    <plurals name="expires_in_days">
+        <item quantity="one">%d day left</item>
+        <item quantity="other">%d days left</item>
+    </plurals>
+    <plurals name="expired_days_ago">
+        <item quantity="one">Expired %d day ago</item>
+        <item quantity="other">Expired %d days ago</item>
+    </plurals>
+
+    <!-- Recipes -->
+    <string name="recipes_title">Smart Recipes</string>
+    <string name="recipes_subtitle">Tap ingredients to include them or leave them out.</string>
+    <string name="recipes_ready">Recipes you can make</string>
+    <string name="recipes_empty">No matches yet. Add more items to your pantry or select more ingredients above.</string>
+    <string name="can_cook">Ready to cook</string>
+    <string name="missing_one">1 ingredient missing: %1$s</string>
+    <string name="ingredient_count">%1$d of %2$d ingredients</string>
+    <string name="recipe_ingredients">Ingredients</string>
+    <string name="recipe_instructions">Instructions</string>
+    <string name="add_to_grocery">Add to list</string>
+    <string name="added_to_grocery">%1$s added to your grocery list</string>
+    <string name="cooked_button">I cooked this!</string>
+    <string name="uses_expiring">Uses up: %1$s</string>
+    <string name="filter_all">All</string>
+    <string name="share">Share</string>
+    <string name="grocery_share_subject">My grocery list</string>
+    <string name="cooked_message">Enjoy! Used %1$d ingredients from your pantry.</string>
+    <string name="cooked_message_measured">Enjoy! Used %1$d ingredients. Items measured in g, kg, ml or L were not changed, so update those quantities yourself.</string>
+    <string name="recipe_not_found">Recipe not found.</string>
+
+    <!-- Grocery -->
+    <string name="grocery_title">Grocery List</string>
+    <string name="grocery_hint">Add an item</string>
+    <string name="grocery_empty">Your list is empty. Add items here or from a recipe.</string>
+    <string name="grocery_move">Move checked to pantry</string>
+    <string name="grocery_moved">Moved %1$d items to your pantry</string>
+
+    <!-- Settings -->
+    <string name="settings_title">Settings</string>
+    <string name="settings_notifications">Daily reminder</string>
+    <string name="settings_notifications_desc">Every day at 8:00 AM, PantryPal tells you which items are about to expire.</string>
+    <string name="settings_sample">Reload sample data</string>
+    <string name="settings_sample_desc">Replace your pantry with the example items.</string>
+    <string name="settings_sample_done">Sample data loaded</string>
+    <string name="settings_privacy">Privacy policy</string>
+    <string name="settings_privacy_desc">Read how PantryPal handles your data.</string>
+    <string name="settings_about">About</string>
+    <string name="settings_version">PantryPal 1.1. Your pantry works offline; ads need an internet connection.</string>
+    <string name="privacy_title">Privacy Policy</string>
+    <string name="privacy_body">PantryPal stores your pantry, grocery list and recipes only on your device. We do not create accounts, and we do not upload your food data to any server.\n\nThe app shows banner ads provided by Google AdMob. AdMob may collect device identifiers and usage data to serve ads. Where required by law, you are asked for consent before ads are personalized.\n\nNotifications are generated locally on your phone to remind you about food that is about to expire. You can turn them off at any time in your system settings.\n\nUninstalling the app removes all data stored by PantryPal.</string>
+
+    <!-- Onboarding -->
+    <string name="onb_emoji_1">🥕</string>
+    <string name="onb_emoji_2">🍳</string>
+    <string name="onb_emoji_3">🔔</string>
+    <string name="onb_title_1">Know what you have</string>
+    <string name="onb_body_1">Track every item in your pantry with its expiry date so nothing gets forgotten.</string>
+    <string name="onb_title_2">Cook with what you own</string>
+    <string name="onb_body_2">Pick your ingredients and PantryPal shows recipes you can make, even ones missing just one item.</string>
+    <string name="onb_title_3">Never waste food again</string>
+    <string name="onb_body_3">Get a gentle reminder every morning about items that need eating soon.</string>
+    <string name="onb_next">Next</string>
+    <string name="onb_skip">Skip</string>
+    <string name="onb_load_sample">Load sample data</string>
+    <string name="onb_start_empty">Start empty</string>
+
+    <!-- Notifications -->
+    <string name="notif_channel_name">Expiry reminders</string>
+    <string name="notif_channel_desc">Daily reminder about food that is about to expire</string>
+    <plurals name="notif_title">
+        <item quantity="one">%d item needs attention</item>
+        <item quantity="other">%d items need attention</item>
+    </plurals>
+    <string name="notif_text">Use soon: %1$s</string>
+</resources>
